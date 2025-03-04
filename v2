@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Axel Reina</title>
+</head>
+<body>
+
+    <h1>Currículum de Axel Jose Reina Caballero</h1>
+
+    <p align="center">
+        <img src="instituto.jpg" width="100" height="100" alt="Logo">
+    </p>
+    <p align="left">
+        Hoja de Vida
+    </p>
+
+
+    <h2 id="menu">Menú</h2>
+    <a href="#datos-personales">Datos Personales</a><br>
+    <a href="#estudios">Estudios</a><br>
+    <a href="#habilidades">Habilidades</a><br>
+    <a href="#otros">Otros</a><br>
+    <a href="#amigos">Amigos</a><br>
+
+
+
+
+
+
+    <hr>
+
+    <h2 id="datos-personales">Datos Personales</h2>
+    <img src="yo.jpeg" alt="Foto de Axel" height="300" width="250"><br>
+    <b>Nombre Completo:</b> Axel Jose Reina Caballero<br>
+    <b>Fecha de Nacimiento:</b> 11 de junio del 2007<br>
+    <b>Lugar de Nacimiento:</b> Guatemala<br>
+    <b>Correo:</b> axelreina008@gmail.com<br>
+    <b>Teléfono:</b> 5557-1786<br>
+    <a href="#menu">Volver al menú</a>
+
+    <hr>
+
+    <h2 id="estudios">Estudios</h2>
+    <b>Primaria:</b> Colegio Jardín Infantil Los Niños<br>
+    <b>Básicos:</b> Instituto Profesional en Computación (IPC)<br>
+    <b>Carrera:</b> Bachillerato en Ciencias y Letras con orientación en Computación <br>
+    <a href="#menu">Volver al menú</a>
+
+    <hr>
+
+    <h2 id="habilidades">Habilidades</h2>
+    <ul>
+        <li>Creatividad</li>
+        <li>Comunicación verbal</li>
+        <li>Responsabilidad</li>
+        <li>Puntualidad</li>
+        <li>Modelado e impresión 3D</li>
+        <li>Programación en C++ y Java</li>
+    </ul>
+    <a href="#menu">Volver al menú</a>
+
+    <hr>
+
+    <h2 id="otros">Otros</h2>
+    <b>Cursos:</b>
+    <ul>
+        <li>Platzi - Programación Básica</li>
+        <li>Platzi - Marca Personal</li>
+        <li>Capacítate para el Empleo - Computación Básica</li
+    </ul>
+    <a href="#menu">Volver al menú</a>
+
+    <hr>
+
+    <h2 id="amigos">Mis Mejores Amigos</h2>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Foto</th>
+        </tr>
+        <tr>
+            <td>Arnlo Alexis</td>
+            <td>17</td>
+            <td><img src="amigo1.jpeg" alt="Arnol" height="100"></td>
+        </tr>
+        <tr>
+            <td>Jonathan Aceituno</td>
+            <td>16</td>
+            <td><img src="amigo2.jpeg" alt="Jonathan" height="100"></td>
+        </tr>
+        <tr>
+            <td>Kimberly Perez</td>
+            <td>17</td>
+            <td><img src="amigo3.jpeg" alt="Kimberly" height="100"></td>
+        </tr>
+        <tr>
+            <td>Abigail Gonzalez</td>
+            <td>16</td>
+            <td><img src="amigo4.jpeg" alt="Abigail" height="100"></td>
+        </tr>
+    </table>
+    <a href="#menu">Volver al menú</a>
+
+</body>
+</html>

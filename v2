@@ -6,16 +6,24 @@
     <title>Currículum de Axel Reina</title>
 </head>
 <body>
-
+    
+ <p align="center">
+                <img src="instituto.jpg" width="100" height="100" alt="Logo">
+            </p>
+            <p align="center">
+                <h1>Hoja de Vida</h1>
+            </p>
+            <nav>
+                <ul align="center">
+                    <li><a href="carlos.html">Carlos</a></li>
+                    <li><a href="axel.html">Axel</a></li>
+                    <li><a href="wilson.html">Wilson</a></li>
+                    <li><a href="josue.html">Josue</a></li>
+                   <li><a href="index.html">Menu</a></li>
+                </ul>
+                <hr color="gray" size="22" noshade="2">
+                
     <h1>Currículum de Axel Jose Reina Caballero</h1>
-
-    <p align="center">
-        <img src="instituto.jpg" width="100" height="100" alt="Logo">
-    </p>
-    <p align="left">
-        Hoja de Vida
-    </p>
-
 
     <h2 id="menu">Menú</h2>
     <a href="#datos-personales">Datos Personales</a><br>
@@ -23,11 +31,6 @@
     <a href="#habilidades">Habilidades</a><br>
     <a href="#otros">Otros</a><br>
     <a href="#amigos">Amigos</a><br>
-
-
-
-
-
 
     <hr>
 

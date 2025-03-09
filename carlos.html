@@ -1,65 +1,111 @@
-<html>
-    <head>
-        <title>barra de navegacion </title>
-    </head>
-    <body>
-        <header>
-            <p align="center">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+</head>
+<body bgcolor="#f4f4f4">
+
+    <!-- ENCABEZADO -->
+    <table width="100%" bgcolor="#333" cellpadding="10">
+        <tr>
+            <td align="center">
                 <img src="instituto.jpg" width="100" height="100" alt="Logo">
-            </p>
-            <p align="center">
-                <h1>Hoja de Vida</h1>
-            </p>
-            <nav>
-                <ul align="center">
-                    <li><a href="carlos.html">Carlos</a></li>
-                    <li><a href="axel.html">Axel</a></li>
-                    <li><a href="wilson.html">Wilson</a></li>
-                    <li><a href="josue.html">Josue</a></li>
-                    <li><a href="index.html">menu</a></li>
-                </ul>
-                <hr color="gray" size="22" noshade="2">
-                <h2 id="menu">Menú</h2>
-    <a href="#datos-personales">Datos Personales</a><br>
-    <a href="#estudios">Estudios</a><br>
-    <a href="#habilidades">Habilidades</a><br>
-    <a href="#otros">Otros</a><br>
-    <a href="#amigos">Amigos</a><br>
+                <h1 style="color: white;">Hoja de Vida</h1>
+            </td>
+        </tr>
+    </table>
 
-    <hr>
+    <!-- MENÚ DE NAVEGACIÓN ESTÁTICO -->
+    <table width="100%" bgcolor="#444" cellpadding="10">
+        <tr align="center">
+            <td><a href="carlos.html" style="color: white; text-decoration: none;">Carlos</a></td>
+            <td><a href="axel.html" style="color: white; text-decoration: none;">Axel</a></td>
+            <td><a href="wilson.html" style="color: white; text-decoration: none;">Wilson</a></td>
+            <td><a href="josue.html" style="color: white; text-decoration: none;">Josue</a></td>
+            <td><a href="index.html" style="color: white; text-decoration: none;">Menú</a></td>
+        </tr>
+    </table>
 
-                <hr color="gray" size="22" noshade="2">
-                <b><u>Datos Personales</u></b><br>
-    <i>Nombre Completo: Carlos Eduardo Marcos Leiva</i><br>
-    <i>Fecha de Nacimiento: 4 de febrero del 2008</i><br>
-    <i>Lugar de Nacimiento: Guatemala</i><br>
-    <i>Correo: eduardol3eiva7@gmail.com</i><br>
-    <i>Telefono: 40759184</i><br>
-    
-    <hr size="10" color="068cb0" align="center">
-    <b><u>Formacion Academica</u></b><br>
-    <i>PRIMARIA: Escuela Emilio Arenales Catalán jornada vespertina</i><br>
-    <i>BÁSICOS: Instituto Profesional en Computación I.P.C</i><br>
-    <i>DIVERSIFICADO: Instituto Profesional de Computación</i><br>
-    
-    <hr size="10" color="068cb0" align="center">
-    <b><u>Habilidades y Fortalezas</u></b><br>
-    <ol>
-        <li>Programación básica en HTML</li>
-        <li>Comunicación verbal</li>
-        <li>Organización</li>
-    </ol>
-    
-    <hr size="10" color="068cb0" align="center">
-    <b><u>Otros</u></b><br>
-    <i>Estudiante de curso de inglés</i><br>
-    
-    <hr size="10" color="068cb0" align="center">
-    
-    <!-- Enlaces internos -->
-    <h2><a href="#amigos" style="text-decoration: none; color: #068cb0;">Ir a Información de Amigos</a></h2>
+    <!-- MENÚ INTERNO DE SECCIONES -->
+    <hr size="4" color="gray" width="80%">
+    <table width="100%" cellpadding="10">
+        <tr align="center">
+            <td>
+                <h2>Menú</h2>
+                <a href="#datos-personales">Datos Personales</a> |
+                <a href="#estudios">Estudios</a> |
+                <a href="#habilidades">Habilidades</a> |
+                <a href="#otros">Otros</a> |
+                <a href="#amigos">Amigos</a>
+            </td>
+        </tr>
+    </table>
+    <hr size="4" color="gray" width="80%">
 
-    <h2 style="text-align: center;">Informacion de Amigos</h2>
+    <!-- DATOS PERSONALES -->
+    <table width="100%" cellpadding="10">
+        <tr>
+            <td align="center">
+                <h2 id="datos-personales">Datos Personales</h2>
+                <b>Nombre Completo:</b> Carlos Eduardo Marcos Leiva<br>
+                <b>Fecha de Nacimiento:</b> 4 de febrero del 2008<br>
+                <b>Lugar de Nacimiento:</b> Guatemala<br>
+                <b>Correo:</b> eduardol3eiva7@gmail.com<br>
+                <b>Teléfono:</b> 40759184
+            </td>
+        </tr>
+    </table>
+    
+    <hr size="10" color="068cb0" align="center">
+
+    <!-- FORMACIÓN ACADÉMICA -->
+    <table width="100%" cellpadding="10">
+        <tr>
+            <td align="center">
+                <h2 id="estudios">Formación Académica</h2>
+                <b>PRIMARIA:</b> Escuela Emilio Arenales Catalán jornada vespertina<br>
+                <b>BÁSICOS:</b> Instituto Profesional en Computación I.P.C<br>
+                <b>DIVERSIFICADO:</b> Instituto Profesional de Computación
+            </td>
+        </tr>
+    </table>
+
+    <hr size="10" color="068cb0" align="center">
+
+    <!-- HABILIDADES Y FORTALEZAS -->
+    <table width="100%" cellpadding="10">
+        <tr>
+            <td align="center">
+                <h2 id="habilidades">Habilidades y Fortalezas</h2>
+                <ol>
+                    <li>Programación básica en HTML</li>
+                    <li>Comunicación verbal</li>
+                    <li>Organización</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="10" color="068cb0" align="center">
+
+    <!-- OTROS -->
+    <table width="100%" cellpadding="10">
+        <tr>
+            <td align="center">
+                <h2 id="otros">Otros</h2>
+                <b>Estudiante de curso de inglés</b>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="10" color="068cb0" align="center">
+
+    <!-- SECCIÓN DE AMIGOS -->
+    <h2 align="center"><a href="#amigos" style="text-decoration: none; color: #068cb0;">Ir a Información de Amigos</a></h2>
+
+    <h2 id="amigos" align="center">Información de Amigos</h2>
     <table border="1" cellpadding="10" cellspacing="0" align="center" style="border-collapse: collapse;">
         <tr>
             <th>Nombre</th>
@@ -88,8 +134,5 @@
         </tr>
     </table>
 
-            </nav>
-        </header>
-        <
-    </body>
-</html>
+</body>
+                    </html>

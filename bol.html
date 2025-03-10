@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum de Josue Bol</title>
+    <title>Hoja de Vida</title>
 </head>
-<body bgcolor="#E8F6F3"> <!-- Color de fondo suave -->
+<body bgcolor="#f4f4f4">
 
-    <!-- Encabezado -->
-    <table width="100%" bgcolor="#2C3E50" cellpadding="15">
+    <!-- ENCABEZADO -->
+    <table width="100%" bgcolor="#333" cellpadding="10">
         <tr>
             <td align="center">
-                <img src="instituto.jpg" width="150" height="150" alt="Logo">
-                <h1 style="color: white;">Hoja de Vida - Josue Bol</h1>
+                <img src="instituto.jpg" width="100" height="100" alt="Logo">
+                <h1 style="color: white;">Hoja de Vida</h1>
             </td>
         </tr>
     </table>
 
-    <!-- Menú de navegación -->
-    <table width="100%" bgcolor="#1A5276" cellpadding="15">
+    <!-- MENÚ DE NAVEGACIÓN ESTÁTICO -->
+    <table width="100%" bgcolor="#444" cellpadding="10">
         <tr align="center">
-            <td><a href="index.html" style="color: white; text-decoration: none;">Menú Principal</a></td>
             <td><a href="carlos.html" style="color: white; text-decoration: none;">Carlos</a></td>
             <td><a href="axel.html" style="color: white; text-decoration: none;">Axel</a></td>
             <td><a href="wilson.html" style="color: white; text-decoration: none;">Wilson</a></td>
+            <td><a href="josue.html" style="color: white; text-decoration: none;">Josue</a></td>
+            <td><a href="index.html" style="color: white; text-decoration: none;">Menú</a></td>
         </tr>
     </table>
 
-    <hr size="4" color="gray" width="85%">
+    <hr size="4" color="gray" width="80%">
 
-    <!-- Datos Personales -->
-    <table width="80%" align="center" cellpadding="10" bgcolor="#D4E6F1">
+    <!-- MENÚ INTERNO DE SECCIONES -->
+    <table width="100%" cellpadding="10">
+        <tr align="center">
+            <td>
+                <h2>Menú</h2>
+                <a href="#datos-personales">Datos Personales</a> |
+                <a href="#estudios">Estudios</a> |
+                <a href="#habilidades">Habilidades</a> |
+                <a href="#otros">Otros</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="4" color="gray" width="80%">
+
+    <!-- DATOS PERSONALES -->
+    <table width="100%" cellpadding="10">
         <tr>
             <td align="center">
-                <h2>Datos Personales</h2>
-                <img src="bol.jpg" alt="Foto de Josue" height="300" width="250"><br><br>
+                <h2 id="datos-personales">Datos Personales</h2>
+                <img src="bol.jpg" width="150" height="150" alt="Foto de Josue"><br><br>
                 <b>Nombre Completo:</b> Josue Nathanael Bol Pana<br>
                 <b>Fecha de Nacimiento:</b> 18 de agosto del 2007<br>
                 <b>Lugar de Nacimiento:</b> Guatemala<br>
@@ -42,14 +58,14 @@
             </td>
         </tr>
     </table>
+    
+    <hr size="10" color="068cb0" align="center">
 
-    <hr size="4" color="gray" width="85%">
-
-    <!-- Formación Académica -->
-    <table width="80%" align="center" cellpadding="10" bgcolor="#FDEDEC">
+    <!-- FORMACIÓN ACADÉMICA -->
+    <table width="100%" cellpadding="10">
         <tr>
             <td align="center">
-                <h2>Formación Académica</h2>
+                <h2 id="estudios">Formación Académica</h2>
                 <b>Primaria:</b> Naciones Unidas 2 (1ro. a 6to. primaria)<br>
                 <b>Básicos:</b> Nueva Santa Isabel II (1ro. a 3ro. básico)<br>
                 <b>Diversificado:</b> Instituto Profesional de Computación (IPC) - 4to. y 5to. Bachillerato
@@ -57,23 +73,35 @@
         </tr>
     </table>
 
-    <hr size="4" color="gray" width="85%">
+    <hr size="10" color="068cb0" align="center">
 
-    <!-- Habilidades y Fortalezas -->
-    <table width="80%" align="center" cellpadding="10" bgcolor="#E8DAEF">
+    <!-- HABILIDADES Y FORTALEZAS -->
+    <table width="100%" cellpadding="10">
         <tr>
             <td align="center">
-                <h2>Habilidades y Fortalezas</h2>
-                <ul style="text-align: left;">
+                <h2 id="habilidades">Habilidades y Fortalezas</h2>
+                <ol>
                     <li>Manejo básico de computadoras</li>
                     <li>Ser creativo</li>
                     <li>Conocimientos básicos de inglés</li>
-                </ul>
+                </ol>
             </td>
         </tr>
     </table>
 
-    <hr size="4" color="gray" width="85%">
+    <hr size="10" color="068cb0" align="center">
+
+    <!-- OTROS -->
+    <table width="100%" cellpadding="10">
+        <tr>
+            <td align="center">
+                <h2 id="otros">Otros</h2>
+                <b>Estudiante de curso de inglés</b>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="10" color="068cb0" align="center">
 
 </body>
-        </html>
+</html>
